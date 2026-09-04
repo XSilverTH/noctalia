@@ -1245,6 +1245,7 @@ if build_tests
     'grid_item_cursor',
     'gtk_extensions',
     'hook_manager',
+    'format_units',
     'hyprland_workspace_backend',
     'i18n_language_tag',
     'i18n_supported_languages',
