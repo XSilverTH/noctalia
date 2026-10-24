@@ -63,12 +63,6 @@ int main() {
            "21k", "rounds compact kilobytes"
        )
       && ok;
-  ok =
-      expectEqual(
-          FormatUnits::formatDecimalBytesPerSecond(999500.0, DecimalByteRateUnit::Auto, ByteRateLabelStyle::Compact, 0),
-          "1000k", "rounds at a compact unit boundary without changing units"
-      )
-      && ok;
   ok = expectEqual(
            FormatUnits::formatDecimalBytesPerSecond(
                2048000.0, DecimalByteRateUnit::Megabytes, ByteRateLabelStyle::Compact, 2

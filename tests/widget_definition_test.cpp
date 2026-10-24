@@ -236,6 +236,7 @@ int main() {
   if (networkPrecisionVisible(desktopSysmonSpecs)) {
     fail("desktop sysmon", "network speed precision is visible when compact formatting is disabled");
   }
+
   checkDefinition("taskbar", taskbarWidgetDefinition);
   WidgetConfig spacedTaskbar;
   spacedTaskbar.type = "taskbar";

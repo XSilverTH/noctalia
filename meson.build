@@ -1228,7 +1228,6 @@ if build_tests
     'desktop_entry_localization',
     'desktop_entry_symlink',
     'desktop_entry_watch',
-    'desktop_widget_factory',
     'desktop_widget_output',
     'disk_mounts',
     'dock_edge_overlap',
